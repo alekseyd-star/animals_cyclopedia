@@ -1,0 +1,93 @@
+body {
+    padding: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body { 
+    /* background-color: cornsilk; */
+}
+
+a:visited {
+    color: inherit;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+}
+
+header > .header {
+    text-align: center;
+}
+
+
+header > ul{
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  color: green;
+}
+
+header > ul > li {
+    width: 33%;
+}
+
+header > ul > li > ul > li {
+    color: green;
+}
+
+header > ul > li > ul > li a:hover {
+    text-decoration: underline;
+}
+
+header .main-category {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: rgb(253, 235, 213);
+    display: block;
+    padding: 3px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+main > article {
+    position: relative;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 360px;
+    height: 400px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 13; /* Количество строк, после которого появится многоточие */
+    overflow: hidden;
+}
+
+main > article > p {
+    line-height: 1.17;
+    padding: 3px;
+}
+
+main > article > img {
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-right: 7px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
